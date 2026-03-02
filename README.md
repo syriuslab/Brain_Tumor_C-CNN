@@ -1,4 +1,4 @@
-# Brain Tumor C-CNN (reproducible pipeline)
+# Brain Tumor C-CNN pipeline
 
 This repository implements a compact convolutional neural network (C-CNN) for multi class brain MRI tumour classification into four labels: **glioma**, **meningioma**, **pituitary tumour**, and **no tumour**.
 
