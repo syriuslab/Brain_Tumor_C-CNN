@@ -2,7 +2,7 @@
 
 This repository implements a compact convolutional neural network (C-CNN) for multi class brain MRI tumour classification into four labels: **glioma**, **meningioma**, **pituitary tumour**, and **no tumour**.
 
-The core contribution of this fork is a **reproducible training and evaluation pipeline** designed to reduce split artefacts and reporting ambiguity. The pipeline notebook should be added at the repository root as:
+The core contribution of this fork is a **reproducible training and evaluation pipeline** built via Google Colab (Pro) and the following notebook file is available in the pipeline folder:
 
 - `BT_repro_pipeline_v2.ipynb`
 
@@ -42,7 +42,7 @@ Create an isolated environment, then install dependencies:
 pip install -r requirements.txt
 ```
 
-Alternatively,and strongly suggested as first install and test, you can use the .ipynb file included in the pipeline section.The notebook is ready to use in Google Colab without additional configuration. Should you encounter any problems, please open an issue in this repository.
+Alternatively,and strongly suggested as first install and test, you can use the .ipynb file included in the pipeline section directly on your Google Colab account. The notebook is ready to use in Google Colab without additional configuration. Should you encounter any problems, please open an issue in this repository.
 
 ## Notes on research use
 
