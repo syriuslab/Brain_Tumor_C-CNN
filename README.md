@@ -15,12 +15,16 @@ The core contribution of this fork is a **reproducible training and evaluation p
 
 ## Reproducible pipeline notebook
 
-Place the notebook `BT_repro_pipeline_v2.ipynb` at the repository root. The notebook is expected to:
+Place the notebook `BT_paper_pipeline_v3_update_020426.ipynb` at the repository root. The notebook is expected to:
 
 - control random seeds where supported
 - keep training, validation, and test partitions distinct
 - fit any data dependent transformations on training only
 - report metrics on the untouched test subset once
+
+Alternatively, you can run the .py file to reproduce it in your own server.
+Please note that we strongly suggest to use at least some additional resources (L4, even better a T4) for high demanding GPU tasks through pipeline cells.
+
 
 ## Credits and provenance
 
@@ -42,7 +46,6 @@ Create an isolated environment, then install dependencies:
 pip install -r requirements.txt
 ```
 
-Alternatively,and strongly suggested as first install and test, you can use the .ipynb file included in the pipeline section directly on your Google Colab account. The notebook is ready to use in Google Colab without additional configuration. Should you encounter any problems, please open an issue in this repository.
 
 ## Notes on research use
 
